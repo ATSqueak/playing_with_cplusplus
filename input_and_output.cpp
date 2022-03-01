@@ -47,5 +47,27 @@ int main(int argc, const char * argv[]) {
     
     cout << "Roses are " << colour << endl;
     cout << pluralNoun << " are blue" << endl;
-    cout << "I love " << celebrity << endl;    return 0;
+    cout << "I love " << celebrity << endl;
+    
+        string name;
+    cout << "Enter your name " ;
+    getline(cin, name);
+    
+    cout << "Hello " << name << endl;
+    
+    
+    string colour, pluralNoun, celebrity;
+    
+    cout << "enter colour: ";
+    getline(cin, colour);
+    cout << "enter plural noun: ";
+    getline(cin, pluralNoun);
+    cout << "enter celebrity: ";
+    getline(cin, celebrity);
+    
+    cout << "Roses are " << colour << endl;
+    cout << pluralNoun << " are blue" << endl;
+    cout << "I love " << celebrity << endl;
+    
+    return 0;
 }
