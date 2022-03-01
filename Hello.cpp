@@ -38,5 +38,23 @@ int main(int argc, const char * argv[]) {
     cout << earth_diameter << endl;
     cout << negat << endl;
     
+    
+    //Byte size space for variable types
+    cout << endl;
+    cout << "Char: " << sizeof(char);
+    cout << endl;
+    cout << "Short: " << sizeof(short);
+    cout << endl;
+    cout << "Int: " << sizeof(int);
+    cout << endl;
+    cout << "Long: " << sizeof(long);
+    cout << endl;
+    cout << "Double: " << sizeof(double);
+    cout << endl;
+    cout << "Float: " << sizeof(float);
+    cout << endl;
+    cout << numeric_limits<short>::min();
+    cout << endl;
+    
     return 0;
 }
