@@ -18,10 +18,21 @@ int main(int argc, const char * argv[]) {
     double *pGPA = &gpa;
     string *pName = &name;
     
-    cout << &age << endl;
-    cout << pAge << endl;
-    cout << *pAge << endl; // dereferencing the pointer variable
-    cout << *&age << endl; // dereferencing the pointer
+    cout << "Age memory address is: " << &age << endl;
+    cout << "Age memory address is: " << pAge << endl;
+    cout << "Derferencing age pointer: " << *pAge << endl; // dereferencing the pointer variable
+    cout << "Derferencing age pointer: " << *&age << endl; // dereferencing the pointer
+
+    cout << "GPA memory address is: " << &gpa << endl;
+    cout << "GPA memory address is: " << pGPA << endl;
+    cout << "Derferencing gpa pointer: " << *pGPA << endl; // dereferencing the pointer variable
+    cout << "Derferencing gpa pointer: " << *&gpa << endl; // dereferencing the pointer
+    
+    cout << "Name memory address is: " << &name << endl;
+    cout << "Name memory address is: " << pName << endl;
+    cout << "Derferencing name pointer: " << *pName << endl; // dereferencing the pointer variable
+    cout << "Derferencing name pointer: " << *&name << endl; // dereferencing the pointer
+
     
     return 0;
 }
